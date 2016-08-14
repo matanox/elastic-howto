@@ -7,7 +7,7 @@ sudo service elasticsearch start
 sudo service elasticsearch stop
 ```
 
-[more details here](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-service.html#_using_chkconfig)
+[more details here](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-service.html#_using_chkconfig).
 
 you may also query status against a running cluster via e.g. http://localhost:9200/_stats/
 
@@ -24,4 +24,4 @@ http://localhost:5601/app/kibana
 
 [mappings play a role](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html)
 
-[See also here](https://discuss.elastic.co/t/viewing-data-not-collected-through-logstash-but-rather-independently-shipped-into-elastic/53936/2)
+[hopefully see also here](https://discuss.elastic.co/t/viewing-data-not-collected-through-logstash-but-rather-independently-shipped-into-elastic/53936/2)
