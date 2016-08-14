@@ -18,9 +18,8 @@ _Note that you can also purge data from the [indices portion](http://localhost:9
 
 ##browsing your elastic data and creating dashboards with Kibana:
 http://localhost:5601/app/kibana
-[some kibana settings for using elastic indices]
 
-(https://www.elastic.co/guide/en/kibana/current/settings.html)
+[some kibana settings for using elastic indices](https://www.elastic.co/guide/en/kibana/current/settings.html)
 
 ## creating and indexing data
 
