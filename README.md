@@ -16,3 +16,9 @@ _Note that you can also purge data from the [indices portion](http://localhost:9
 
 ###browsing your elastic data and creating dashboards with Kibana:
 http://localhost:5601/app/kibana
+[some kibana settings for using elastic indices](https://www.elastic.co/guide/en/kibana/current/settings.html)
+
+## creating and indexing data
+
+[mappings play a role](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html)
+[See also here](https://discuss.elastic.co/t/viewing-data-not-collected-through-logstash-but-rather-independently-shipped-into-elastic/53936/2)
