@@ -11,10 +11,14 @@ sudo service elasticsearch stop
 
 you may also query status against a running cluster via e.g. http://localhost:9200/_stats/
 
+and find the location of configuration files [through here](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-dir-layout.html)
+
 ##browsing your elastic cluster and data with the HQ plugin
 http://localhost:9200/_plugin/hq/ (don't forget connecting to your elastic cluster of choice by e.g. entering http://localhost:9200 then pressing the connect button)
 
 _Note that you can also purge data from the [indices portion](http://localhost:9200/_plugin/hq/#indices) of the HQ plugin UI_
+
+Alternatives plugins are [discussed here](https://blog.codecentric.de/en/2014/03/elasticsearch-monitoring-and-management-plugins/).
 
 ##browsing your elastic data and creating dashboards with Kibana:
 http://localhost:5601/app/kibana
@@ -24,5 +28,7 @@ http://localhost:5601/app/kibana
 ## creating and indexing data
 
 [mappings play a role](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html)
+
+[See here](https://www.elastic.co/guide/en/kibana/current/getting-started.html).
 
 [hopefully see also here](https://discuss.elastic.co/t/viewing-data-not-collected-through-logstash-but-rather-independently-shipped-into-elastic/53936/2)
